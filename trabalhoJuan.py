@@ -25,7 +25,7 @@ class Sistema_de_Cadastro_Escolar:
         data_nascimento = input("Data de nascimento (DD/MM/AAAA): ")
         sexo = input("Sexo: ")
         endereco = input("Endereço: ")
-        telefone = input("Telefone: ")
+        telefone = input("Telefone (##) ####-####: ")
         email = input("E-mail: ")
         self.alunos[matricula] = {
             "nome": nome,
@@ -44,7 +44,7 @@ class Sistema_de_Cadastro_Escolar:
         data_de_nascimento = input("Data de nascimento (DD/MM/AAAA): ")
         sexo = input("Sexo: ")
         endereco = input("Endereço: ")
-        telefone = input("Telefone: ")
+        telefone = input("Telefone (##) ####-####: ")
         email = input("E-mail: ")
         self.professores[matricula] = {
             "nome": nome,
